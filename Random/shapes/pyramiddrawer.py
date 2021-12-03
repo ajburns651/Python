@@ -10,4 +10,5 @@ while i <= (2 * rows):
     spacing = spacing + 1
     i = i + 2
 
+
 print('\nDone')
