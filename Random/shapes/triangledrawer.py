@@ -11,7 +11,7 @@ while i <= (2 * rows):
     elif i == (2 * rows - 1):
         print("* " * (int((1/2) * i) + 1))
     else:
-        print((int(rows) - spacing - 1) * " " +  "*" + " " * (i-1) + "*")
+        print((int(rows) - spacing - 1) * " " +  "*" + " " * (i-2) + "*")
     spacing = spacing + 1
     i = i + 2
 
